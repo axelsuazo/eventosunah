@@ -194,7 +194,7 @@ export default function EventManager({
 
         <form onSubmit={submitSearch} className="mt-8 w-full">
           <div className="mx-auto w-full max-w-5xl">
-            <div className="rounded-[2rem] border border-gray-100 bg-white/90 p-3 shadow-lg shadow-slate-900/5 dark:border-slate-800 dark:bg-slate-900/80">
+            <div className="rounded-[0.5rem] border border-gray-100 bg-white/90 p-3 shadow-lg shadow-slate-900/5 dark:border-slate-800 dark:bg-slate-900/80">
               <div className="relative mx-auto flex w-full max-w-2xl items-center">
                 <input
                   type="search"
@@ -227,7 +227,7 @@ export default function EventManager({
               </div>
 
               {showAdvancedFilters && (
-                <div className="mt-5 animate-[fadeIn_.35s_ease-in-out] rounded-3xl border border-gray-100 bg-gray-50/90 p-4 dark:border-slate-800 dark:bg-slate-950/70">
+                <div className="mt-5 animate-[fadeIn_.35s_ease-in-out] rounded-[0.5rem] border border-gray-100 bg-gray-50/90 p-4 dark:border-slate-800 dark:bg-slate-950/70">
                   <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
                     <FilterSelect
                       label="Fecha"
@@ -338,7 +338,7 @@ export default function EventManager({
           </div>
         </form>
 
-        <div className="mt-5 flex flex-col gap-2 rounded-2xl bg-white/70 px-4 py-3 text-center shadow-sm dark:bg-slate-900/60 sm:flex-row sm:items-center sm:justify-between sm:text-left">
+        <div className="mt-5 flex flex-col gap-2 rounded-[0.5rem] e/70 px-4 py-3 text-center shadow-sm dark:bg-slate-900/60 sm:flex-row sm:items-center sm:justify-between sm:text-left">
           <p className="text-sm font-semibold text-gray-600 dark:text-slate-300">
             Mostrando {paginationStart}-{paginationEnd} de{" "}
             {filteredEvents.length} eventos.
