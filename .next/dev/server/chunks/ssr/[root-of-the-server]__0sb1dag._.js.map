@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Alumno%20USAID/Downloads/Deploy%20frontend/eventosunah/app/Components/ThemeProvider.tsx"],"sourcesContent":["\"use client\";\r\n\r\nimport type { ReactNode } from \"react\";\r\nimport { ThemeProvider as NextThemesProvider } from \"next-themes\";\r\n\r\nexport default function ThemeProvider({ children }: { children: ReactNode }) {\r\n  return (\r\n    <NextThemesProvider\r\n      attribute=\"class\"\r\n      defaultTheme=\"light\"\r\n      enableSystem\r\n      disableTransitionOnChange\r\n    >\r\n      {children}\r\n    </NextThemesProvider>\r\n  );\r\n}\r\n"],"names":["ThemeProvider","children","attribute","defaultTheme","enableSystem","disableTransitionOnChange"],"mappings":";;;;;AAGA;AAHA;;;AAKe,SAASA,cAAc,EAAEC,QAAQ,EAA2B;IACzE,qBACE,8OAAC,iKAAkB;QACjBC,WAAU;QACVC,cAAa;QACbC,YAAY;QACZC,yBAAyB;kBAExBJ;;;;;;AAGP"}}]
+}
